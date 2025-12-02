@@ -1,0 +1,7 @@
+name: TDA
+channels:
+  - conda-forge
+dependencies: # Installing with conda takes many minutes. Use: mamba env create -f environment.yml
+  - ripser
+  - persim
+  - ipykernel # To use this environment in jupyter, run: python -m ipykernel install --user --name TDA --display-name TDA
