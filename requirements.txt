@@ -1,6 +1,11 @@
+# Create environment with: python3 -m venv ../TDAvenv && source ../TDAvenv/bin/activate && pip install -r requirements.txt
+# To use this environment as a kernel in jupyter, activate it and run: python -m ipykernel install --user --name TDA --display-name TDA  
+# Uninstall kernel with: jupyter kernelspec uninstall TDA
 ripser
 persim
-ipykernel # To use this environment in jupyter, activate it and run: python -m ipykernel install --user --name TDA --display-name TDA  # Uninstall with jupyter kernelspec uninstall TDA
+ipykernel
+watchfiles
+# We might not use the below packages:
 gudhi
-cmake
-giotto-tda
+# cmake # required for giotto-tda
+giotto-tda # not available with conda
