@@ -5,3 +5,10 @@ dependencies: # Installing with conda takes many minutes. Use: mamba env create 
   - ripser
   - persim
   - ipykernel # To use this environment in jupyter, run: python -m ipykernel install --user --name TDA --display-name TDA
+  - gudhi
+  # - pip
+  # - cmake
+  # giotto-tda is not available from conda but you can't pass an install location in environment.yml
+  # To install it after creating conda env, you'd need to run pip install -t ~/.conda/envs/TDA giotto-tda
+  # - pip:
+    # - giotto-tda

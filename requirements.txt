@@ -1,0 +1,6 @@
+ripser
+persim
+ipykernel # To use this environment in jupyter, activate it and run: python -m ipykernel install --user --name TDA --display-name TDA  # Uninstall with jupyter kernelspec uninstall TDA
+gudhi
+cmake
+giotto-tda
